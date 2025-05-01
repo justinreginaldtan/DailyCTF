@@ -16,6 +16,7 @@ I followed the stream associated with this packet and examined the hex/ASCII dat
 🔐 Result
 
 The password was successfully extracted from this diagnostic packet, completing the challenge. This process mirrors how professionals in ICS cybersecurity analyze anomalous protocol behavior in unencrypted industrial environments, especially when dealing with legacy systems that lack basic authentication safeguards.
+
 🛠️ Tools Used
 
     Wireshark
