@@ -1,5 +1,5 @@
 # DailyCTF
-Doing one CTF/Leetcode challenge a day until I land an internship
+Doing one CTF challenge a day until I land an internship
 
 # 🛡️ DailyCTF — My Cybersecurity Practice Journey
 
