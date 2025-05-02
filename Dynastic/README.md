@@ -30,3 +30,15 @@ for i in range(len(msg)):
     if ch.isalpha():
         chi = ord(ch) - 65          # A → 0
         ech = chr((chi + i) % 26 + 65)
+
+cipher = open("output.txt").read().strip()
+
+plain = []
+for i, ch in enumerate(cipher):
+    if ch.isalpha():
+        idx = (ord(ch) - 65 - i) % 26
+        plain.append(chr(idx + 65))
+    else:
+        plain.append(ch)
+
+print("".join(plain))
