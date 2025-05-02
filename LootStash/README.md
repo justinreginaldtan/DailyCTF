@@ -31,7 +31,7 @@ Iron_Dagger
 Steel_Dagger
 …
 Obsidian_Warhammer
-HTB{n33dl3_1n_a_l00t_stack}
+HTB{redacted}
 Mythic_Scythe
 ```
 ### 3 Open the binary in Ghidra / Cutter:
