@@ -16,7 +16,6 @@ We also get two files:
 * **source.py** – Python that encrypts a secret string  
 * **output.txt** – the encrypted string and a note telling us to wrap our answer with `HTB{ }`
 
-Goal: decrypt the string and use it as the passcode.
 
 ---
 
@@ -30,6 +29,12 @@ for i in range(len(msg)):
     if ch.isalpha():
         chi = ord(ch) - 65          # A → 0
         ech = chr((chi + i) % 26 + 65)
+
+Each letter is shifted forward by its own index.
+That screams “Trithemius cipher” (a rolling Caesar).
+Decrypt script
+
+We just subtract the index instead of adding it.
 
 cipher = open("output.txt").read().strip()
 
