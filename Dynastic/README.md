@@ -32,10 +32,12 @@ for i in range(len(msg)):
 
 Each letter is shifted forward by its own index.
 That screams “Trithemius cipher” (a rolling Caesar).
-Decrypt script
+```
+
+## Decrypt script
 
 We just subtract the index instead of adding it.
-
+```
 cipher = open("output.txt").read().strip()
 
 plain = []
@@ -47,3 +49,4 @@ for i, ch in enumerate(cipher):
         plain.append(ch)
 
 print("".join(plain))
+```
