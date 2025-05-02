@@ -1,33 +1,32 @@
-What they gave us
+# Dynastic (CTF write‑up)
 
-    source.py that scrambles a message
+A quick and friendly walkthrough of how I cracked the “Dynastic” puzzle from Hack The Box.
 
-    output.txt with the scrambled text and a hint to wrap the answer in HTB{ }
+---
 
-Step 1 Look at the code
+## Scenario
 
+You wake up in a dark gas chamber.  
+Handcuffed.  
+Door locked.  
+Tape says hydrogen cyanide will flood the room in fifteen minutes.  
+A half‑dead torch lights up bloody letters on the wall plus a sketch of a Roman emperor.  
+We also get two files:
+
+* **source.py** – Python that encrypts a secret string  
+* **output.txt** – the encrypted string and a note telling us to wrap our answer with `HTB{ }`
+
+Goal: decrypt the string and use it as the passcode.
+
+---
+
+## Recon
+
+Open **source.py** and look at the key loop:
+
+```python
 for i in range(len(msg)):
-    if char is letter:
-        new = (char value + i) mod 26
-
-Each letter shifts forward by its position index.
-That is the classic Trithemius cipher, which feels like a Caesar shift that changes every step.
-Step 2 Reverse the shift
-
-For every letter at position i do
-plain = (cipher value − i) mod 26.
-
-Tiny Python to do it:
-
-cipher = open("output.txt").read().strip()
-plain = []
-for i, ch in enumerate(cipher):
+    ch = msg[i]
     if ch.isalpha():
-        plain_idx = (ord(ch) - 65 - i) % 26
-        plain.append(chr(plain_idx + 65))
-    else:
-        plain.append(ch)
-print("".join(plain))
-
-Result:
-            HTB{redacted}
+        chi = ord(ch) - 65          # A → 0
+        ech = chr((chi + i) % 26 + 65)
