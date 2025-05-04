@@ -1,5 +1,5 @@
 # DailyCTF
-Doing one CTF challenge a day until I land an internship
+Daily CTF until I land my cybersecurity internship
 
 # 🛡️ DailyCTF — My Cybersecurity Practice Journey
 
