@@ -3,6 +3,7 @@
 *Part of my **DailyCTF** journey*
 
 I was debating to include this section into my DailyCTF, but thought it was relevant enough to warrant the inclusion. Alot of my CTFs I take on are web app related, and I've had to learn the ins and out of burp-suite and have been learning through PortSwigger Academy concurrently.
+
 The write‑ups here **do not reveal full requests or solutions**; they capture goals, approach, and key lessons only, respecting PortSwigger’s disclosure rules.
 
 ---
