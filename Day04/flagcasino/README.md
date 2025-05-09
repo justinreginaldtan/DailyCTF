@@ -1,4 +1,8 @@
-# Casino (Reversing write‑up)
+# 🧠 TimeKORP Writeup [FAILED]
+> *Hack The Box*  
+> *Date Attempted: 2025-05-04*  
+> *Difficulty: Easy*
+> *Category: Reverse*
 
 The team stumbles into an abandoned casino run by creepy robots. They offer you riches if you can beat the game—so naturally, we reverse the game instead.
 

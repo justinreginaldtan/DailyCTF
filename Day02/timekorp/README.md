@@ -1,10 +1,14 @@
-# TimeKORP CTF Write-Up 🕒
+# 🧠 TimeKORP Writeup
+> *Hack The Box*  
+> *Date Solved: 2025-05-02*  
+> *Difficulty: Easy*
+> *Category: Web*
 
-## 🟢 Overview
-- **Category:** Web
-- **Challenge Name:** TimeKORP
-- **Objective:** Retrieve the flag from a Docker-based PHP app vulnerable to command injection.
-- **Tools Used:** Browser, grep, PHP source analysis
+## 🛠️ Tools & Techniques
+    Browser
+    Grep
+    PHP source analysis
+---
 
 ## 🔍 Initial Recon
 - Accessed: `http://94.237.51.163:49486`

@@ -1,4 +1,8 @@
-# LootStash (Reversing write‑up)
+# LootStash Write-Up
+> *Hack The Box*  
+> *Date Solved: 2025-05-05*  
+> *Difficulty: Easy*
+> *Category: Reverse*
 
 Looking for one OP item in a mountain of loot? Same vibe here—the flag is tucked inside a single executable called **`stash`**.
 

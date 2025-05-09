@@ -1,9 +1,9 @@
-# Jailbreak CTF Write-Up 🕒
-
-## 🟢 Overview
-- **Category:** Web
-- **Challenge Name:** Jailbreak
-- **Tools Used:** Browser, Kali Linux, BurpSuite
+# Jailbreak Write-Up 🕒
+> *Hack The Box*  
+> *Date Solved: 2025-05-06*  
+> *Difficulty: Easy*
+> *Category: Web*
+> *Tools Used: Browser, Kali Linux, BurpSuite*
 
 ## 🔍 Initial Recon
 I accessed the challenge at `http://94.237.51.163:49486/` and was greeted by a simple page displaying the current time. 

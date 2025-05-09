@@ -1,4 +1,8 @@
-# Dynastic (CTF write‑up)
+# 🧠 Dynastic Writeup
+> *Hack The Box*  
+> *Date Solved: 2025-05-03*  
+> *Difficulty: Easy*
+> *Category: Encryption*
 
 A quick and friendly walkthrough of how I cracked the “Dynastic” puzzle from Hack The Box.
 

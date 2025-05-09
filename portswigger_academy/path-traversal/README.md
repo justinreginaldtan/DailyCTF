@@ -1,7 +1,7 @@
 ## Path Traversals
 **Date completed**: 2025-05-08
 
-No I missed two days on my CTF Streak :(. It's okay we continue forward! Starting the streak again. CTFs were getting exponentially more difficult, so I'm starting portswigger's academy lessons/labs on common web vulnerabilities using BurpSuite. This will help me with future CTFs, as well as enhance my overall cybersecurity knowledge.
+I'm starting portswigger's academy lessons/labs on common web vulnerabilities using BurpSuite. This will help me with future CTFs, as well as enhance my overall cybersecurity knowledge.
 
 ### Goal
 
