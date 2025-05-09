@@ -1,4 +1,4 @@
-# 🧠 TimeKORP Writeup [FAILED]
+# 🧠 Flag Casino Writeup [FAILED]
 > *Hack The Box*  
 > *Date Attempted: 2025-05-04*  
 > *Difficulty: Easy*
