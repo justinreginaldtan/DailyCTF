@@ -1,4 +1,4 @@
-# 🧠 dailyCTF — My Journey to Red Teaming, One Challenge at a Time
+# 🧠 dailyCTF — My Journey to Red Teaming
 
 Hi, I’m **Justin Reginald Tan** — a senior CIS student passionate about red teaming and web application security.
 
