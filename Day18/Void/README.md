@@ -1,5 +1,6 @@
 # Void
 **Date**: 2025-05-18
+
 **Category**: Pwn
 
 ## Table of Contents
