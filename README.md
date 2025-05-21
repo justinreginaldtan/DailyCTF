@@ -43,6 +43,8 @@ You'll also find occasional write-ups on:
 
 This is a work in progress, just like me. I’ve missed days, taken breaks, and some of these write-ups are rough — but that’s part of the process. I’m not aiming for perfect. I’m aiming to improve. What matters is that I keep coming back.
 
+DailyCTF is about daily cybersecurity learning through practical challenges. Occasionally, I include select labs from structured training like HackTheBox's CPTS Course, as they reinforce and deepen the same practical skills developed in CTFs.
+
 If you’re learning too, or feeling stuck somewhere in your journey, I hope this repo reminds you that showing up still counts.
 
 Feel free to star ⭐ the repo, follow along, or share thoughts. Especially if you're on the red team path. I’d love to connect.
