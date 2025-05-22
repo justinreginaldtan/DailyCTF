@@ -4,6 +4,7 @@
         "denum",
         "ESMTP",
         "footprinting",
+        "Gobuster",
         "hostnames",
         "inlanefreight",
         "lockd",
@@ -12,6 +13,7 @@
         "OSCP",
         "rpcbind",
         "rpcinfo",
-        "showmount"
+        "showmount",
+        "whatweb"
     ]
 }
